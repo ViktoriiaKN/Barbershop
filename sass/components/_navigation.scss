@@ -1,0 +1,19 @@
+.nav__link {
+    font-weight: 400;
+        font-size: 18px;
+        line-height: calc(30 / 18);
+        letter-spacing: 0.02em;
+        color: #9DA4BD;
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-delay: 25ms;
+
+        &:hover,
+        &:focus {
+            color: #FF6C00;
+        }
+}
+
+.nav__list {
+    @include flex (flex, start, 50px);
+}
